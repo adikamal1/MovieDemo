@@ -1,0 +1,17 @@
+<div id="mainContent">
+    <div *ngFor="let movie of movieData">
+        <div class="card">
+        <img id="poster" src='https://image.tmdb.org/t/p/w500{{movie.poster_path}}'>
+        <div id="movieContent">
+        <div id="movietitle" >{{movie.title}}</div>
+        <div class="progress-bar">
+                <span class="bar">
+                  <span class="progress"></span>
+                </span>
+              </div>
+        <div id="date" >{{movie.release_date}}</div>
+        <div id="overview" >{{movie.overview}}</div>
+    </div>
+    </div>
+    </div> 
+</div>
