@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+.signup{
+    border: none;
+    color: rgb(0, 119, 255);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 32px;
+    width: 120px;
+    background-color: white;
+
+}
+.signup:focus{
+    outline: none !important;
+    background-color: rgb(0, 119, 255);
+    color: white;
+}
+.login{
+    background: none;
+    border: none;
+    color: antiquewhite;
+    padding-top: 30px !important;
+    padding: 42px;
+    padding-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.login:focus{
+    outline: none !important;
+}
+
+
+@media screen and (max-width: 1300px) {
+.login{
+    padding: 36px !important;
+}
+}
